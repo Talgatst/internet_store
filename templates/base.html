@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Internet shop{% endblock %}</title>
+</head>
+
+    <h1> Internet shop</h1>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/products/">Products</a></li>
+                <li><a href="/products/add/">Add Product</a></li>
+                <li><a href="/categories/add/">Add Category</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+
+</body>
+</html>
