@@ -1,0 +1,40 @@
+[
+{
+  "model": "webapp.category",
+  "pk": 1,
+  "fields": {
+    "name": "PF",
+    "description": "Petffod"
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 1,
+  "fields": {
+    "title": "ttt",
+    "description": "лоыдаодыадывоа",
+    "category": 1,
+    "created_at": "2025-11-10T12:25:45.464Z",
+    "price": "15.00",
+    "image_url": "https://www.shutterstock.com/ru/search/whiskas?dd_referrer=https%3A%2F%2Fwww.google.com%2F"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$SQb3ZjbnRwu3yutdEwsa43$2trPDjc9Y561YlYGkbshOKdu+5VI+nfddKqqf/JVpsk=",
+    "last_login": "2025-11-10T11:30:14.716Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-11-10T11:25:38.980Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
