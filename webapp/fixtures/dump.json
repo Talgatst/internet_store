@@ -8,6 +8,14 @@
   }
 },
 {
+  "model": "webapp.category",
+  "pk": 2,
+  "fields": {
+    "name": "Nonfood",
+    "description": "kjdflkajdfa"
+  }
+},
+{
   "model": "webapp.product",
   "pk": 1,
   "fields": {
@@ -16,7 +24,60 @@
     "category": 1,
     "created_at": "2025-11-10T12:25:45.464Z",
     "price": "15.00",
-    "image_url": "https://www.shutterstock.com/ru/search/whiskas?dd_referrer=https%3A%2F%2Fwww.google.com%2F"
+    "image_url": "https://www.shutterstock.com/ru/search/whiskas?dd_referrer=https%3A%2F%2Fwww.google.com%2F",
+    "stock": 0
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 2,
+  "fields": {
+    "title": "oil",
+    "description": "adsfalkdfjlkajdslfas",
+    "category": 2,
+    "created_at": "2025-11-10T22:22:52.854Z",
+    "price": "30.00",
+    "image_url": "https://www.istockphoto.com/photo/cat-sits-on-the-windowsill-and-eats-dry-food-tabby-kitten-eating-from-orange-bowl-gm1438310550-478845062?utm_source=pixabay&utm_medium=affiliate&utm_campaign=sponsore",
+    "stock": 4
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 3,
+  "fields": {
+    "title": "Roal",
+    "description": "ewefjwjwlkrjwe",
+    "category": 1,
+    "created_at": "2025-11-10T23:17:04.035Z",
+    "price": "25.00",
+    "image_url": "https://www.istockphoto.com/photo/cat-sits-on-the-windowsill-and-eats-dry-food-tabby-kitten-eating-from-orange-bowl-gm1438310550-478845062?utm_source=pixabay&utm_medium=affiliate&utm_campaign=sponsore",
+    "stock": 10
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 4,
+  "fields": {
+    "title": "Gas",
+    "description": "ffdjalsdfla",
+    "category": 2,
+    "created_at": "2025-11-10T23:18:30.074Z",
+    "price": "10.00",
+    "image_url": "https://www.istockphoto.com/photo/cat-sits-on-the-windowsill-and-eats-dry-food-tabby-kitten-eating-from-orange-bowl-gm1438310550-478845062?utm_source=pixabay&utm_medium=affiliate&utm_campaign=sponsore",
+    "stock": 29
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 5,
+  "fields": {
+    "title": "Viskas",
+    "description": "wefqjerqjr",
+    "category": 1,
+    "created_at": "2025-11-10T23:19:27.947Z",
+    "price": "2.00",
+    "image_url": "https://www.istockphoto.com/photo/cat-sits-on-the-windowsill-and-eats-dry-food-tabby-kitten-eating-from-orange-bowl-gm1438310550-478845062?utm_source=pixabay&utm_medium=affiliate&utm_campaign=sponsore",
+    "stock": 0
   }
 },
 {
